@@ -9,7 +9,7 @@ def reverse_each_word(string)
  new.join(" ")
  end
  
- reverse_each_word(string)
+ reverse_each_word()
  stringy.collect do |word|
    word.reverse
  
