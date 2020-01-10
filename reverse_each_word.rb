@@ -12,6 +12,6 @@ def reverse_each_word(string)
  reverse_each_word(string)
  stringy.collect do |word|
    word.reverse
- end
+ 
  word
  end
