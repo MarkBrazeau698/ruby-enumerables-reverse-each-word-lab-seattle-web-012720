@@ -12,7 +12,7 @@ def reverse_each_word(string)
   
   string_array.each do |word|
   binding.pry
-  
+  new << word.reverse
   end
  new
  end
