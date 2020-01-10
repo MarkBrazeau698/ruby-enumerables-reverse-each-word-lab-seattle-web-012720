@@ -8,3 +8,10 @@ def reverse_each_word(string)
   end
  new.join(" ")
  end
+ 
+ reverse_each_word(string)
+ stringy.collect do |word|
+   word.reverse
+ end
+ word
+ end
